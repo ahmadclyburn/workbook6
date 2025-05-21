@@ -10,7 +10,7 @@ public class BankAccount implements Valuable{
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
-    public void  deposit(double amount){
+    public void deposit(double amount){
 //        this.balance = this.balance + amount // longer form of line below
           this.balance += amount;
     }

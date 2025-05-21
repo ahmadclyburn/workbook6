@@ -5,8 +5,8 @@ public class CreditCard implements Valuable{
     private String accountNumber;
     private double balance;
 
-    public CreditCard(String name, String name1, String accountNumber, double balance) {
-        this.name = name1;
+    public CreditCard(String name, String accountNumber, double balance) {
+        this.name = name;
         this.accountNumber = accountNumber;
         this.balance = balance;
     }

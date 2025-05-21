@@ -12,7 +12,6 @@ public class Gold extends FixedAsset{
     }
     @Override
     public double getValue(){
-
         return(weight * 400);
     }
 }
